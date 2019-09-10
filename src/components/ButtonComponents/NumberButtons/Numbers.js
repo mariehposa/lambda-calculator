@@ -10,7 +10,7 @@ import { numbers } from '../../../data'
 */
 //Import your array data to from the provided data file
 
-const Numbers = () => {
+const Numbers = ({onTap}) => {
   // STEP 2 - add the imported data to state
   const [stateNumbers, setStateNumbers] = useState(numbers)
   return (
@@ -25,3 +25,5 @@ const Numbers = () => {
     </div>
   );
 };
+
+export default Numbers;

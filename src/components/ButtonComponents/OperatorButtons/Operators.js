@@ -13,6 +13,11 @@ const Operators = ({onTap}) => {
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
+       {
+          stateOperators.map(operator => <OperatorButton operator={operator.value} onTap={(operator) => onTap(operator)}/>)
+       }
     </div>
   );
 };
+
+export default Operators;

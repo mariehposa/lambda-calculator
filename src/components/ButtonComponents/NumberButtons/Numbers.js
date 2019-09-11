@@ -20,7 +20,7 @@ const Numbers = ({onTap}) => {
        it any props needed by the child component*/}
 
       {
-        stateNumbers.map(number => <NumberButton number={number} onTap={(whatComesIn) => onTap(whatComesIn)}/>)
+        stateNumbers.map(no => <NumberButton number={no}/>)
       }
     </div>
   );

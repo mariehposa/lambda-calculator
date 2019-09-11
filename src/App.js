@@ -18,6 +18,9 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        {
+          [<button>2</button>, <button>1</button>, <button>3</button>]
+        }
       </div>
     </div>
   );

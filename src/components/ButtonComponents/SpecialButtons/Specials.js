@@ -14,7 +14,7 @@ const Specials = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {
-         specialCharacters.map(special => <SpecialButton specialCharacter={special} onTap = {(special) => onTap(special)} />)
+         specialCharacters.map(special => <SpecialButton specialCharacter={special}/>)
        }
     </div>
   );
